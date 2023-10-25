@@ -111,7 +111,7 @@ class App extends Component {
       }
     });this.state = { time: 1500, // Initial length of time
       breakTime: 300 // Initial time of break
-    };this.breakTime = 300;this.pomodoroStarted = false;this.breakStarted = false;this.isPaused = false;this.div = false;this.audio = new Audio('https://res.cloudinary.com/lucedesign/video/upload/v1494560703/8bit-laser_z04j15.wav');}componentDidUpdate() {
+    };this.breakTime = 300;this.pomodoroStarted = false;this.breakStarted = false;this.isPaused = false;this.div = false;this.audio = new Audio("https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav");}componentDidUpdate() {
     if (this.state.time < 1) {
       this.audio.play();
       var audio = new Audio("https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav");
